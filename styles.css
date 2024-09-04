@@ -40,6 +40,34 @@ main {
     border-radius: 10px;
 }
 
+#food-web {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.web-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.web-box {
+    width: 150px;
+    height: 150px;
+    border: 2px dashed #333;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
 select {
     margin-top: 10px;
     padding: 5px;
@@ -59,4 +87,15 @@ button {
 
 button:hover {
     background-color: #45a049;
+}
+
+.organism {
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    cursor: grab;
 }

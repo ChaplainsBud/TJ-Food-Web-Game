@@ -1,5 +1,7 @@
 Clean Up: Put frontend in folder, backend in folder, and resources in folder. 
 --------
+Q1: Why does GitHub now require this each time? git config http.postBuffer 524288000
+A1: Solution ->  maybe I can make this default in git/GitHub. 
 
 Food Web: Choose your ecosystem. Start at the simplest. As you win, advance to next level of complexity. 
 

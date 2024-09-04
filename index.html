@@ -25,6 +25,25 @@
             </select>
             <button id="start-button">Start</button>
         </div>
+        <div id="food-web" class="hidden">
+            <!-- Simple food web structure -->
+            <div class="web-section" id="producers">
+                <h3>Producers</h3>
+                <div class="web-box" id="producer-box"></div>
+            </div>
+            <div class="web-section" id="consumers">
+                <h3>Consumers</h3>
+                <div class="web-box" id="consumer-box"></div>
+            </div>
+            <div class="web-section" id="secondary-consumers">
+                <h3>Secondary Consumers</h3>
+                <div class="web-box" id="secondary-consumer-box"></div>
+            </div>
+            <!-- Organisms to be dragged -->
+            <div class="organism" draggable="true" id="organism1">Plant</div>
+            <div class="organism" draggable="true" id="organism2">Herbivore</div>
+            <div class="organism" draggable="true" id="organism3">Carnivore</div>
+        </div>
     </main>
 
     <script src="script.js"></script>
